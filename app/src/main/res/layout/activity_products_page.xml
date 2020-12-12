@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page2"
+    tools:context=".ProductsPage">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Lipstick1\n ₹ 150"
+        app:autoSizeTextType="uniform"
+        android:textSize="19dp"
+
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Lipstick1"
+        app:layout_constraintStart_toStartOf="@+id/Lipstick1"
+        app:layout_constraintTop_toBottomOf="@+id/Lipstick1" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:text="Chappal 1\n ₹ 500"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/chappal1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/chappal1"
+        app:layout_constraintTop_toBottomOf="@+id/chappal1" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="7dp"
+        android:text="Chappal 3\n ₹ 2000"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/chappal3"
+        app:layout_constraintStart_toStartOf="@+id/chappal3"
+        app:layout_constraintTop_toBottomOf="@+id/chappal3" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:text="Chappal 2\n ₹ 1000/-"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/chappal2"
+        app:layout_constraintStart_toStartOf="@+id/chappal2"
+        app:layout_constraintTop_toBottomOf="@+id/chappal2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Lipstick3\n ₹ 300"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Lipstick3"
+        app:layout_constraintStart_toStartOf="@+id/Lipstick3"
+        app:layout_constraintTop_toBottomOf="@+id/Lipstick3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Lipstick2\n ₹ 250"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Lipstick2"
+        app:layout_constraintStart_toStartOf="@+id/Lipstick2"
+        app:layout_constraintTop_toBottomOf="@+id/Lipstick2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+
+        android:text="Hand bag1\n ₹ 500"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/hand_bag1"
+        app:layout_constraintStart_toStartOf="@+id/hand_bag1"
+        app:layout_constraintTop_toBottomOf="@+id/hand_bag1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Hand bag3\n ₹ 1600"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/hand_bag3"
+        app:layout_constraintStart_toStartOf="@+id/hand_bag3"
+        app:layout_constraintTop_toBottomOf="@+id/hand_bag3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        app:autoSizeTextType="uniform"
+        android:text="Hand bag2\n ₹ 1200"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/hand_bag2"
+        app:layout_constraintStart_toStartOf="@+id/hand_bag2"
+        app:layout_constraintTop_toBottomOf="@+id/hand_bag2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Jumki 3 \n ₹ 300"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/jumki3"
+        app:layout_constraintStart_toStartOf="@+id/jumki3"
+        app:layout_constraintTop_toBottomOf="@+id/jumki3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Jumki 2\n ₹ 100"
+        android:textSize="19dp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/jumki2"
+        app:layout_constraintStart_toStartOf="@+id/jumki2"
+        app:layout_constraintTop_toBottomOf="@+id/jumki2" />
+
+    <ImageView
+        android:id="@+id/jumki1"
+        android:layout_width="102dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1" />
+
+    <ImageView
+        android:id="@+id/jumki2"
+        android:layout_width="114dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/jumki1"
+        app:layout_constraintStart_toEndOf="@+id/jumki1"
+        app:layout_constraintTop_toTopOf="@+id/jumki1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img5" />
+
+    <ImageView
+        android:id="@+id/jumki3"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="@+id/jumki2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toEndOf="@+id/jumki2"
+        app:layout_constraintTop_toTopOf="@+id/jumki2"
+        app:srcCompat="@drawable/img6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:text="Jumki 1\n ₹ 200"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/jumki1"
+        app:layout_constraintStart_toStartOf="@+id/jumki1"
+        app:layout_constraintTop_toBottomOf="@+id/jumki1" />
+
+    <ImageView
+        android:id="@+id/hand_bag1"
+        android:layout_width="101dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/img2" />
+
+    <ImageView
+        android:id="@+id/hand_bag2"
+        android:layout_width="105dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hand_bag1"
+        app:layout_constraintStart_toEndOf="@+id/hand_bag1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img3" />
+
+    <ImageView
+        android:id="@+id/hand_bag3"
+        android:layout_width="101dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hand_bag2"
+        app:layout_constraintStart_toEndOf="@+id/hand_bag2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img4" />
+
+    <ImageView
+        android:id="@+id/Lipstick1"
+        android:layout_width="89dp"
+        android:layout_height="71dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/hand_bag1"
+        app:layout_constraintStart_toStartOf="@+id/hand_bag1"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/img7" />
+
+    <ImageView
+        android:id="@+id/Lipstick2"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/img8" />
+
+    <ImageView
+        android:id="@+id/Lipstick3"
+        android:layout_width="83dp"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/img9" />
+
+    <ImageView
+        android:id="@+id/chappal1"
+        android:layout_width="93dp"
+        android:layout_height="67dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/img10" />
+
+    <ImageView
+        android:id="@+id/chappal2"
+        android:layout_width="94dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/chappal1"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/img11" />
+
+    <ImageView
+        android:id="@+id/chappal3"
+        android:layout_width="83dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/chappal2"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/img12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

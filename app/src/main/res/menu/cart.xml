@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="cart"
+        android:id="@+id/cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/Shop"
+        android:id="@+id/Shop1"
+        app:showAsAction="never"
+        /> <item
+    android:title="@string/Count"
+    android:id="@+id/count1"
+    app:showAsAction="never"
+    /> <item
+    android:title="@string/Contact"
+    android:id="@+id/contact1"
+    app:showAsAction="never"
+    />
+
+</menu>

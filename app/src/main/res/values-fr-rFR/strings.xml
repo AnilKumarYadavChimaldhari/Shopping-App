@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Achats</string>
+    <string name="email_hint">Adresse électronique </string>
+    <string name="User_name">Nom d\'utilisateur</string>
+    <string name="first_name">Prénom</string>
+    <string name="Last_name">Nom de famille</string>
+    <string name="Enter_pass">Mot de passe</string>
+    <string name="confirm_pass">Retaper le mot de passe</string>
+    <string name="Check_box_text">J\'accepte les conditions d\'utilisation et la politique de confidentialité</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="Mobile_numb">Entrez le numéro de mobile</string>
+    <string name="Last_name_err">Le nom de famille ne peut pas être emptyr</string>
+    <string name="First_name_err">
+Le prénom ne peut pas être vide</string>
+    <string name="Email_err">
+Le champ ne peut pas être vide</string>
+    <string name="Email_Validation_err"> Ce type d\'e-mail n\'existe pas</string>
+    <string name="Phone_err">Le numéro de mobile ne peut pas comporter moins de 10 chiffres</string>
+    <string name="Password_8char_Less_err">
+Le mot de passe ne peut pas comporter moins de 8 caractères</string>
+    <string name="Password_err">
+Le mot de passe doit contenir au moins un chiffre, une majuscule et une minuscule et un caractère spécial</string>
+    <string name="Confirm_Password_err">Le mot de passe ne correspond pas, veuillez vérifier</string>
+    <string name="Alert_Title">
+Alerte!</string>
+    <string name="Alert_Message">Veuillez accepter nos conditions générales</string>
+    <string name="yes">Oui</string>
+    <string name="no">
+non</string>
+    <string name="Toast">
+Veuillez accepter les termes et conditions</string>
+    <string name="Count">COMPTER</string>
+    <string name="Shop">BOUTIQUE</string>
+    <string name="Back">
+RETOUR</string>
+    <string name="Contact">
+CONTACT</string>
+    <string name="count_number">
+Le nombre d\'éléments sélectionnés est:  </string>
+    <string name="Added_to_cart">Article ajouté avec succès dans le panier </string>
+    <string name="Already_Added_to_cart">Article déjà ajouté dans le panier  </string>
+    <string name="back_btn">RETOUR</string>
+    <string name="Welcome">Bienvenue</string>
+    <string name="Products">DES PRODUITS</string>
+    <string name="male">mâle</string>
+    <string name="female">femme</string>
+    <string name="ear_rings1">des boucles d\'oreilles 1 \n ₹ 200/-</string>
+    <string name="ear_rings2">des boucles d\'oreilles 2 \n ₹ 100/-</string>
+    <string name="ear_rings3">des boucles d\'oreilles 3 \n ₹ 300/-</string>
+</resources>

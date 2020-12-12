@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    android:backgroundTint="@color/pink"
+    tools:context=".cart">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/list_cart"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/alert_Layout"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_baseline_warning_24"
+            android:backgroundTint="@color/Red"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Items to"
+            android:textSize="66dp"
+
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="show"
+                android:textSize="66dp"
+
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/not_satisfied"
+                android:backgroundTint="@color/black"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

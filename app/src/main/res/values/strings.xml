@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Shop</string>
+    <string name="email_hint">Email address </string>
+    <string name="User_name">User Name</string>
+    <string name="first_name">First Name</string>
+    <string name="Last_name">Last Name</string>
+    <string name="Enter_pass">Password</string>
+    <string name="confirm_pass">Re-enter Password</string>
+    <string name="Check_box_text">I accept the Terms of use  &amp; Privacy Policy </string>
+    <string name="sign_up">SignUp</string>
+    <string name="Mobile_numb">Enter Mobile Number</string>
+    <string name="Last_name_err">Last Name can not be empty</string>
+    <string name="First_name_err">First Name can not be empty</string>
+    <string name="Email_err">Field can not be empty</string>
+    <string name="Email_Validation_err"> This kind of E-mail doesn\'t exist</string>
+    <string name="Phone_err">Mobile number can not be less than 10 digits</string>
+    <string name="Password_8char_Less_err">Password can not be less than 8 characters</string>
+    <string name="Password_err">Password should contain at least one number,one uppercase and lowercase and a special character</string>
+    <string name="Confirm_Password_err">Password dose\'nt match please check</string>
+    <string name="Alert_Title">Alert!</string>
+    <string name="Alert_Message">Please accept our Terms and Conditions</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="Toast">Please accept terms and conditions</string>
+    <string name="Count">COUNT</string>
+    <string name="Shop">SHOP</string>
+    <string name="Back">BACK</string>
+    <string name="Contact">CONTACT</string>
+    <string name="count_number">Number of Items Selected is:  </string>
+    <string name="Added_to_cart">Item  Added Successfully in cart  </string>
+    <string name="Already_Added_to_cart">Item Already Added  in cart  </string>
+    <string name="back_btn">BACK </string>
+    <string name="Welcome">Welcome </string>
+    <string name="Products">PRODUCTS</string>
+    <string name="male">Male</string>
+    <string name="female">feMale</string>
+    <string name="ear_rings1">Ear Rings 1 \n ₹ 200/-</string>
+    <string name="ear_rings2">Ear Rings 2 \n ₹ 100/-</string>
+    <string name="ear_rings3">Ear Rings 3 \n ₹ 300/-</string>
+
+</resources>
